@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:P2PBuilder/P2PBuilder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:P2PClient/P2PClient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:P2PServer/P2PServer.xcodeproj">
+   </FileRef>
+</Workspace>

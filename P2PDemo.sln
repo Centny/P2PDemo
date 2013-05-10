@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PBuilder", "P2PBuilder\P2PBuilder.vcxproj", "{B8F28241-C098-44F1-9AD5-05CA7E116EE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PServer", "P2PServer\P2PServer.vcxproj", "{3FF3D151-CC9A-4679-AC21-D8A9D45886A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PClient", "P2PClient\P2PClient.vcxproj", "{069FEFF1-1C1C-4B59-ADDD-23040E01801F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F28241-C098-44F1-9AD5-05CA7E116EE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8F28241-C098-44F1-9AD5-05CA7E116EE4}.Debug|Win32.Build.0 = Debug|Win32
+		{B8F28241-C098-44F1-9AD5-05CA7E116EE4}.Release|Win32.ActiveCfg = Release|Win32
+		{B8F28241-C098-44F1-9AD5-05CA7E116EE4}.Release|Win32.Build.0 = Release|Win32
+		{3FF3D151-CC9A-4679-AC21-D8A9D45886A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FF3D151-CC9A-4679-AC21-D8A9D45886A5}.Debug|Win32.Build.0 = Debug|Win32
+		{3FF3D151-CC9A-4679-AC21-D8A9D45886A5}.Release|Win32.ActiveCfg = Release|Win32
+		{3FF3D151-CC9A-4679-AC21-D8A9D45886A5}.Release|Win32.Build.0 = Release|Win32
+		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Debug|Win32.Build.0 = Debug|Win32
+		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Release|Win32.ActiveCfg = Release|Win32
+		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

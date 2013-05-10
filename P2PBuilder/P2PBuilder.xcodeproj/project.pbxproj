@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E97F958616410C0D00C4C4D4 /* P2PDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E97F958516410C0D00C4C4D4 /* P2PDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B7436616394445007CAE9A /* P2PBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B7436416394445007CAE9A /* P2PBuilder.cpp */; };
+		E9B7436716394445007CAE9A /* P2PBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B7436516394445007CAE9A /* P2PBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E97F958516410C0D00C4C4D4 /* P2PDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PDef.h; sourceTree = "<group>"; };
+		E9B7432716394341007CAE9A /* libP2PBuilder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libP2PBuilder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B7436416394445007CAE9A /* P2PBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2PBuilder.cpp; sourceTree = "<group>"; };
+		E9B7436516394445007CAE9A /* P2PBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PBuilder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B7432416394341007CAE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B7431C16394341007CAE9A = {
+			isa = PBXGroup;
+			children = (
+				E9B7436316394445007CAE9A /* P2PBuilder */,
+				E9B7432816394341007CAE9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B7432816394341007CAE9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7432716394341007CAE9A /* libP2PBuilder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B7436316394445007CAE9A /* P2PBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7436416394445007CAE9A /* P2PBuilder.cpp */,
+				E9B7436516394445007CAE9A /* P2PBuilder.h */,
+				E97F958516410C0D00C4C4D4 /* P2PDef.h */,
+			);
+			path = P2PBuilder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9B7432516394341007CAE9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B7436716394445007CAE9A /* P2PBuilder.h in Headers */,
+				E97F958616410C0D00C4C4D4 /* P2PDef.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E9B7432616394341007CAE9A /* P2PBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B7432B16394341007CAE9A /* Build configuration list for PBXNativeTarget "P2PBuilder" */;
+			buildPhases = (
+				E9B7432316394341007CAE9A /* Sources */,
+				E9B7432416394341007CAE9A /* Frameworks */,
+				E9B7432516394341007CAE9A /* Headers */,
+				E93402E3163A228000DB8CA7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2PBuilder;
+			productName = P2PBuilder;
+			productReference = E9B7432716394341007CAE9A /* libP2PBuilder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B7431E16394341007CAE9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Centny;
+			};
+			buildConfigurationList = E9B7432116394341007CAE9A /* Build configuration list for PBXProject "P2PBuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9B7431C16394341007CAE9A;
+			productRefGroup = E9B7432816394341007CAE9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B7432616394341007CAE9A /* P2PBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E93402E3163A228000DB8CA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d $PROJECT_DIR/build ];then\n mkdir $PROJECT_DIR/build\nfi\ncp -r $CONFIGURATION_BUILD_DIR/* $PROJECT_DIR/build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B7432316394341007CAE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B7436616394445007CAE9A /* P2PBuilder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9B7432916394341007CAE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9B7432A16394341007CAE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9B7432C16394341007CAE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Debug;
+		};
+		E9B7432D16394341007CAE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B7432116394341007CAE9A /* Build configuration list for PBXProject "P2PBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B7432916394341007CAE9A /* Debug */,
+				E9B7432A16394341007CAE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B7432B16394341007CAE9A /* Build configuration list for PBXNativeTarget "P2PBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B7432C16394341007CAE9A /* Debug */,
+				E9B7432D16394341007CAE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B7431E16394341007CAE9A /* Project object */;
+}
