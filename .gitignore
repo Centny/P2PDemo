@@ -4,3 +4,6 @@
 *.suo
 
 Debug
+xcuserdata
+
+.DS_Store

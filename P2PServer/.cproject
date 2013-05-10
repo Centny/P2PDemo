@@ -47,7 +47,7 @@
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.490435062" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1875160495" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/opt/local/include"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/P2PBuilder/P2PBuilder}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/P2PBuilder/src}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1423922683" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
