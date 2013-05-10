@@ -1,0 +1,4 @@
+[submodule "SocketBuilder"]
+	path = SocketBuilder
+	url = https://github.com/Centny/SocketBuilder.git
+	branch = master
