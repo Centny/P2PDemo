@@ -13,18 +13,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E9410748173CE289000AD0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97F9572164108D400C4C4D4 /* P2PBuilder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B7432616394341007CAE9A;
+			remoteInfo = P2PBuilder;
+		};
 		E97F9576164108D500C4C4D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E97F9572164108D400C4C4D4 /* P2PBuilder.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E9B7432716394341007CAE9A;
-			remoteInfo = P2PBuilder;
-		};
-		E97F9579164108ED00C4C4D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E97F9572164108D400C4C4D4 /* P2PBuilder.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E9B7432616394341007CAE9A;
 			remoteInfo = P2PBuilder;
 		};
 /* End PBXContainerItemProxy section */
@@ -125,7 +125,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E97F957A164108ED00C4C4D4 /* PBXTargetDependency */,
+				E9410749173CE289000AD0AB /* PBXTargetDependency */,
 			);
 			name = P2PClient;
 			productName = P2PClient;
@@ -186,10 +186,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E97F957A164108ED00C4C4D4 /* PBXTargetDependency */ = {
+		E9410749173CE289000AD0AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = P2PBuilder;
-			targetProxy = E97F9579164108ED00C4C4D4 /* PBXContainerItemProxy */;
+			targetProxy = E9410748173CE289000AD0AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

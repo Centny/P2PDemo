@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E97F958616410C0D00C4C4D4 /* P2PDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E97F958516410C0D00C4C4D4 /* P2PDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9B7436616394445007CAE9A /* P2PBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B7436416394445007CAE9A /* P2PBuilder.cpp */; };
-		E9B7436716394445007CAE9A /* P2PBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B7436516394445007CAE9A /* P2PBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9410742173CE07A000AD0AB /* P2PBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9410741173CE07A000AD0AB /* P2PBuilder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E97F958516410C0D00C4C4D4 /* P2PDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PDef.h; sourceTree = "<group>"; };
+		E9410741173CE07A000AD0AB /* P2PBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P2PBuilder.cpp; path = src/P2PBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		E9410744173CE096000AD0AB /* P2PBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P2PBuilder.h; path = src/P2PBuilder/P2PBuilder.h; sourceTree = SOURCE_ROOT; };
+		E9410745173CE096000AD0AB /* P2PDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P2PDef.h; path = src/P2PBuilder/P2PDef.h; sourceTree = SOURCE_ROOT; };
 		E9B7432716394341007CAE9A /* libP2PBuilder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libP2PBuilder.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9B7436416394445007CAE9A /* P2PBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2PBuilder.cpp; sourceTree = "<group>"; };
-		E9B7436516394445007CAE9A /* P2PBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PBuilder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +28,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9410743173CE086000AD0AB /* P2PBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				E9410744173CE096000AD0AB /* P2PBuilder.h */,
+				E9410745173CE096000AD0AB /* P2PDef.h */,
+			);
+			name = P2PBuilder;
+			sourceTree = "<group>";
+		};
 		E9B7431C16394341007CAE9A = {
 			isa = PBXGroup;
 			children = (
@@ -49,9 +56,8 @@
 		E9B7436316394445007CAE9A /* P2PBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				E9B7436416394445007CAE9A /* P2PBuilder.cpp */,
-				E9B7436516394445007CAE9A /* P2PBuilder.h */,
-				E97F958516410C0D00C4C4D4 /* P2PDef.h */,
+				E9410743173CE086000AD0AB /* P2PBuilder */,
+				E9410741173CE07A000AD0AB /* P2PBuilder.cpp */,
 			);
 			path = P2PBuilder;
 			sourceTree = "<group>";
@@ -63,8 +69,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B7436716394445007CAE9A /* P2PBuilder.h in Headers */,
-				E97F958616410C0D00C4C4D4 /* P2PDef.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +131,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ ! -d $PROJECT_DIR/build ];then\n mkdir $PROJECT_DIR/build\nfi\ncp -r $CONFIGURATION_BUILD_DIR/* $PROJECT_DIR/build";
+			shellScript = "if [ ! -d $PROJECT_DIR/build ];then\n mkdir $PROJECT_DIR/build\nfi\npwd\ncp -r ./src/P2PBuilder $BUILT_PRODUCTS_DIR\ncp -r $CONFIGURATION_BUILD_DIR/* $PROJECT_DIR/build\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -136,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B7436616394445007CAE9A /* P2PBuilder.cpp in Sources */,
+				E9410742173CE07A000AD0AB /* P2PBuilder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

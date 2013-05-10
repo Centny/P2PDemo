@@ -12,6 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E941074A173CE293000AD0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97F957E16410A3400C4C4D4 /* P2PBuilder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B7432616394341007CAE9A;
+			remoteInfo = P2PBuilder;
+		};
 		E97F958216410A3500C4C4D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E97F957E16410A3400C4C4D4 /* P2PBuilder.xcodeproj */;
@@ -117,6 +124,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E941074B173CE293000AD0AB /* PBXTargetDependency */,
 			);
 			name = P2PServer;
 			productName = P2PServer;
@@ -191,6 +199,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E941074B173CE293000AD0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = P2PBuilder;
+			targetProxy = E941074A173CE293000AD0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E9B7434116394364007CAE9A /* Debug */ = {
