@@ -18,22 +18,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P2PBuilder\P2PBuilder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P2PBuilder\UDPBuilder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="src\P2PBuilder\P2PBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2PBuilder\P2PDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="P2PBuilder\P2PBuilder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="P2PBuilder\P2PDef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="P2PBuilder\UDPBuilder.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="src\P2PBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

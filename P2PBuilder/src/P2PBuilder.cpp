@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Centny. All rights reserved.
 //
 
-#include "P2PBuilder.h"
+#include "P2PBuilder/P2PBuilder.h"
 
 int P2PBuilder::log(){
     printf("call success!");

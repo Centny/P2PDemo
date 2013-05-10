@@ -54,6 +54,9 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /I /E ..\P2PBuilder\src\P2PBuilder $(OutDir)P2PBuilder</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -76,13 +79,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P2PBuilder\P2PBuilder.cpp" />
-    <ClCompile Include="P2PBuilder\UDPBuilder.cpp" />
+    <ClInclude Include="src\P2PBuilder\P2PBuilder.h" />
+    <ClInclude Include="src\P2PBuilder\P2PDef.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="P2PBuilder\P2PBuilder.h" />
-    <ClInclude Include="P2PBuilder\P2PDef.h" />
-    <ClInclude Include="P2PBuilder\UDPBuilder.hpp" />
+    <ClCompile Include="src\P2PBuilder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "P2PBuilder.h"
+#include "P2PBuilder/P2PBuilder.h"
 #include <SocketBuilder.h>
 #include <iostream>
 #include <boost/array.hpp>
@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
             std::cout << "\n";
             std::cout << "local host: " << _udp.socket().local_endpoint().port()
 				<< endl;
-            sleep(5);
+            bsleep(5000);
         }
 		std::getchar();
 	} catch (std::exception& e) {

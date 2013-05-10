@@ -41,7 +41,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>J:\Dev\Project\P2PDemo\P2PBuilder\P2PBuilder;$(BOOST_HOME);$(IncludePath)</IncludePath>
+    <IncludePath>$(OutDir);$(BOOST_HOME);$(IncludePath)</IncludePath>
     <LibraryPath>$(OutDir);$(BOOST_HOME)\stage\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -58,7 +58,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>P2PBuilder.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>P2PBuilder.lib;libsbd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

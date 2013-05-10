@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PServer", "P2PServer\P2PS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PClient", "P2PClient\P2PClient.vcxproj", "{069FEFF1-1C1C-4B59-ADDD-23040E01801F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsbd", "SocketBuilder\libsbd\libsbd.vcxproj", "{B638DA16-DE56-4D07-AB59-FE6F936DE43A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Debug|Win32.Build.0 = Debug|Win32
 		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Release|Win32.ActiveCfg = Release|Win32
 		{069FEFF1-1C1C-4B59-ADDD-23040E01801F}.Release|Win32.Build.0 = Release|Win32
+		{B638DA16-DE56-4D07-AB59-FE6F936DE43A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B638DA16-DE56-4D07-AB59-FE6F936DE43A}.Debug|Win32.Build.0 = Debug|Win32
+		{B638DA16-DE56-4D07-AB59-FE6F936DE43A}.Release|Win32.ActiveCfg = Release|Win32
+		{B638DA16-DE56-4D07-AB59-FE6F936DE43A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
